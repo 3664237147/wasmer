@@ -2,6 +2,7 @@
 
 ## **[Unreleased]**
 
+- [#1071](https://github.com/wasmerio/wasmer/pull/1071) Add support for non-trapping float-to-int conversions, enabled by default.
 - [#1060](https://github.com/wasmerio/wasmer/pull/1060) Test the capi with all the backends
 - [#1058](https://github.com/wasmerio/wasmer/pull/1058) Fix minor panic issue when `wasmer::compile_with` called with llvm backend.
 - [#858](https://github.com/wasmerio/wasmer/pull/858) Minor panic fix when wasmer binary with `loader` option run a module without exported `_start` function.
